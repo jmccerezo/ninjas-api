@@ -15,7 +15,7 @@ import {
 import { CreateNinjaDto } from './dto/create-ninja.dto';
 import { UpdateNinjaDto } from './dto/update-ninja.dto';
 import { NinjasService } from './ninjas.service';
-import { BeltGuard } from 'src/belt/belt.guard';
+import { BeltGuard } from 'src/ninjas/belt/belt.guard';
 
 @Controller('ninjas')
 @UseGuards(BeltGuard)
